@@ -1,3 +1,10 @@
+.App {
+  position: relative;
+}
+.MessageContainer{
+  position: sticky;
+}
+
 @media (min-width: 480px) {
   .text {
     font-size: 16px;

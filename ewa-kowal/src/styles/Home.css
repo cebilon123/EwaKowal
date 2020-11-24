@@ -6,13 +6,13 @@
 }
 .home {
     display: flex;
-    min-height: 70vh;
+    min-height: 100vh;
     min-width: 100%;
 
     flex-direction: column;
     justify-content: space-around;
 
-    padding: 0 3rem 0 3rem;
+    padding: 5rem 3rem;
 
 }
 .imagebox {

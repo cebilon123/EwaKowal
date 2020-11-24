@@ -9,7 +9,7 @@ const About = () => {
                 <p className="Title">O nas</p>
                 <p className="Text">
                     Nasz gabinet powstał prawie 20 lat temu i od tamtego czasu 
-                    ciągle działamy i pomagamy
+                    zaufało nam setki klientów!
                 </p>              
             </section>
             <section className="PersonInformation">

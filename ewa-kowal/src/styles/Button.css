@@ -1,0 +1,17 @@
+.Button {
+    padding: 0.1rem 0.8rem;
+    margin: 0;
+    box-sizing: border-box;
+
+    background: #F4C2CB;   
+    border-radius: 25px;
+
+    cursor: pointer;
+
+    box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.4);
+}
+
+.Button p {
+    color: #7E313F;
+    font-size: 1.1rem;
+}

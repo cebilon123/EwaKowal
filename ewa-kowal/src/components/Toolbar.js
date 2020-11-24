@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Toolbar.css'
+import Button from './reusable/Button.jsx'
 
 const Toolbar = () => {
     return (
@@ -13,7 +14,7 @@ const Toolbar = () => {
               <a>Cennik</a>
             </li>
             <li>
-              <a>Kontakt</a>
+              <Button text={"Kontakt"}/>
             </li>
           </ul>
       </div>
