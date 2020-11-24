@@ -38,18 +38,44 @@
 
     top: 18%;
 
-    height: 75%;
+    height: 80%;
     width: 100%;
 
     z-index: 0;
     background: #252420;
 }
-@media (min-width: 687px) {
-    .PersonInformation *:nth-child(n){
+.PersonInformation>div{
+    z-index: 4;
+    position: relative;
+
+    display:flex;
+    justify-content: flex-end;
+}
+.PersonName {
+    color: white;
+    mix-blend-mode: difference;
+    z-index: 1;
+    transform: rotate(90deg);
+    width: 1rem;
+    white-space: nowrap;
+
+    position: absolute;
+
+    left: 2.5%;
+    top: 40%;
+
+    font-size: 1.5rem;
+}
+@media (min-width: 687px) {    
+    .PersonInformation div:nth-child(n){
         align-self: flex-start;       
     }
-    .PersonInformation *:nth-child(2n+0){
+    .PersonInformation div:nth-child(2n+0){
         align-self: flex-end;       
+    }
+    .PersonName {
+        transform: rotate(45deg);
+        left: 20%
     }
 }
 @media (min-width: 1024px) {
@@ -58,6 +84,12 @@
     }
     .Text {
         font-size: 3vw;
+    }
+    .PersonName{
+        transform: rotate(0);
+        font-size: 3.5rem;
+
+        left: -10%;
     }
 }
 @media (min-width: 1024px) {
@@ -79,7 +111,13 @@
 }
 @media (min-width: 1300px) {
     .Background{
-        top: 30%;
-        height: 50%;
+        top: 26%;
+        height: 58%;
+    }
+    .PersonName{
+        transform: rotate(0);
+        font-size: 7rem;
+        line-height: 2rem;
+        left: -10%;
     }
 }

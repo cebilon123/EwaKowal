@@ -13,9 +13,18 @@ const About = () => {
                 </p>              
             </section>
             <section className="PersonInformation">
-                <PersonInfo image="https://picsum.photos/500" text="Jakiś przykładowy tekst który zajemie ileś lini i po polsku żebym ogarnął gdzie się kończą linie i w ogóle. Tutaj Ewa Kowal najlepszy gabinet kosmetyczny ever, wieć zapraszamy, wbijać, mam dwadzieścia lat doświadczenia co znaczy że jestem najlepsza w Rzeszowie. Mam kota, psa, myszy, ryby a nawet kury które są fajneJakiś przykładowy tekst który zajemie ileś lini i po polsku żebym ogarnął gdzie się kończą linie i w ogóle. Tutaj Ewa Kowal najlepszy gabinet kosmetyczny ever, wieć zapraszamy, wbijać, mam dwadzieścia lat doświadczenia co znaczy że jestem najlepsza w Rzeszowie. Mam kota, psa, myszy, ryby a nawet kury które są fajne"/>
-                <PersonInfo isLeft={true} image="https://picsum.photos/500" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum"/>
-                <PersonInfo image="https://picsum.photos/500" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum"/>
+                <div>
+                    <p className="PersonName">Ewa Kowal</p>
+                    <PersonInfo image="https://picsum.photos/500" text="Jakiś przykładowy tekst który zajemie ileś lini i po polsku żebym ogarnął gdzie się kończą linie i w ogóle. Tutaj Ewa Kowal najlepszy gabinet kosmetyczny ever, wieć zapraszamy, wbijać, mam dwadzieścia lat doświadczenia co znaczy że jestem najlepsza w Rzeszowie. Mam kota, psa, myszy, ryby a nawet kury które są fajneJakiś przykładowy tekst który zajemie ileś lini i po polsku żebym ogarnął gdzie się kończą linie i w ogóle. Tutaj Ewa Kowal najlepszy gabinet kosmetyczny ever, wieć zapraszamy, wbijać, mam dwadzieścia lat doświadczenia co znaczy że jestem najlepsza w Rzeszowie. Mam kota, psa, myszy, ryby a nawet kury które są fajne"/>
+                </div>
+                <div>
+                    <p className="PersonName">Anna Charkot</p>
+                    <PersonInfo isLeft={true} image="https://picsum.photos/500" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum"/>
+                </div>
+                <div>
+                    <p className="PersonName">Karolina Skrobacz</p>
+                    <PersonInfo image="https://picsum.photos/500" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum"/>
+                </div>
             </section>
                 <div className="Background"/>
         </div>
