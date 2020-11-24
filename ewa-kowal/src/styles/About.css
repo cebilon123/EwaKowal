@@ -1,0 +1,21 @@
+.About {
+    margin-top: 150px;
+
+    min-height: 100vh;
+    text-align: center;
+}
+
+.Header {
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.Title {
+    font-weight: 400;
+}
+.Text {
+    width: 100%;
+}
