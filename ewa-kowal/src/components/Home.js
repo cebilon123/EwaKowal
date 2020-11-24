@@ -5,7 +5,7 @@ import '../styles/Home.css'
 const Home = () => {
     return (
         <div className="home">
-            <p>
+            <p className="Home_p">
                 Stworzymy idealną fryzurę i zajmiemy się twoją cerą
             </p>
             <div className="imagebox">

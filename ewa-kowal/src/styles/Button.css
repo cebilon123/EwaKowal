@@ -15,3 +15,9 @@
     color: #7E313F;
     font-size: 1.1rem;
 }
+
+@media (min-width: 426px) {
+    .Button{
+        padding: 0.2rem 1.5rem;
+    }
+  }

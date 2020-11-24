@@ -41,8 +41,55 @@ img {
     top: -40px;
     right: -20px;
 }
-p {
+.Home_p {
     width: 50%;
-    font-size: 30px;
+    font-size: 8vw;
     font-weight: 100;
+}
+@media screen and (min-width: 768px) {
+    .home {
+        flex-direction: row;
+        align-items: center;
+
+        min-height: 90vh;
+    }
+    .imagebox {
+        align-self: center;
+    }
+    .Home_p{
+        width: 40%;
+        font-size: 6vw;        
+    }
+    .imagebox .square {
+        right: -14%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .Home_p{
+        width: 25%;
+        font-size: 4vw;
+    }
+    img {
+        width: 40vw;
+    }
+    .imagebox .square {
+        width: 300px;
+        height: 390px;
+    }
+}
+@media screen and (min-width: 1440px) {
+    .Home_p{
+        width: 28%;
+        font-size: 2.65vw;
+    }
+    .imagebox .square {
+        width: 420px;
+        height: 520px;
+    }
+}
+@media screen and (min-width: 1600px) {
+    .imagebox .square {
+        width: 500px;
+        height: 640px;
+    }
 }
