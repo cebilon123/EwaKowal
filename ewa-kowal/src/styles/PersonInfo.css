@@ -1,0 +1,39 @@
+.PersonInfoBox {
+    width: 90%;
+    height: 100%;
+    z-index: 2;
+
+    position: relative;
+
+    padding: 5rem 0.5rem 1rem 0.5rem;
+}
+
+.TextBox {
+    background: #F5F5F5;
+    padding: 5px;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.4);
+}
+.Text p {
+    font-size: 15px;
+    width: 100%;
+
+    text-align: start;
+    line-height: 1.6;
+}
+.Text div {
+    float: right;
+    position: relative;
+
+    width: 110px;
+    height: 70px;
+}
+
+.Image {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+
+    top: -40px;
+    right: -20px;
+}
