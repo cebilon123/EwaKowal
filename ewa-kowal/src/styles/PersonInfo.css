@@ -1,8 +1,7 @@
 .PersonInfoBox {
-    width: 90%;
+    max-width: 85%;
     height: 100%;
     z-index: 2;
-
     position: relative;
 
     padding: 5rem 0.5rem 1rem 0.5rem;
@@ -20,20 +19,57 @@
     text-align: start;
     line-height: 1.6;
 }
-.Text div {
-    float: right;
+.ImageBox {
     position: relative;
 
-    width: 110px;
-    height: 70px;
+    width: 160px;
+    height: 160px;
 }
 
-.Image {
+.float__right {
+    float: right;
+}
+
+.float__left {
+    float: left;
+}
+
+.Image__right {
     width: 100%;
     height: auto;
 
     position: absolute;
+    left: 20%;
+    top: -20%;
+}
+.Image__left {
+    width: 100%;
+    height: auto;
 
-    top: -40px;
-    right: -20px;
+    position: absolute;
+    left: -20%;
+    top: -20%;
+}
+
+@media (min-width: 650px) {
+    .PersonInfoBox {
+        width: 65%;
+    }
+}
+@media (min-width: 768px) {
+    .PersonInfoBox {
+        width: 50%;
+        margin: 0;
+    }
+}
+@media (min-width: 1024px) {
+    .ImageBox {    
+        width: 200px;
+        height: 180px;
+    }
+}
+@media (min-width: 1260px) {
+    .PersonInfoBox {
+        width: 40%;
+    }
 }

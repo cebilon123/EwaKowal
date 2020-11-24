@@ -16,13 +16,21 @@
 }
 .Title {
     font-weight: 400;
+    font-size: 6vw;
 }
 .Text {
     width: 100%;
+    font-size: 4vw;
+    font-weight: 100;
 }
 
 .PersonInformation {
     position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
 }
 .Background {
     position: absolute;
@@ -34,4 +42,31 @@
 
     z-index: 0;
     background: #252420;
+}
+@media (min-width: 687px) {
+    .PersonInformation *:nth-child(n){
+        align-self: flex-start;       
+    }
+    .PersonInformation *:nth-child(2n+0){
+        align-self: flex-end;       
+    }
+}
+@media (min-width: 1024px) {
+    .Header {
+        width: 80%;
+    }
+    .Text {
+        font-size: 3vw;
+    }
+}
+@media (min-width: 1024px) {
+    .Header {
+        width: 60%;
+    }
+    .Text {
+        font-size: 2vw;
+    }
+    .Title{
+        font-size: 4vw;
+    }
 }
