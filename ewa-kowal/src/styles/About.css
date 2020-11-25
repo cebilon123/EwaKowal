@@ -65,6 +65,7 @@
     top: 40%;
 
     font-size: 1.5rem;
+    font-weight: 100;
 }
 @media (min-width: 687px) {    
     .PersonInformation div:nth-child(n){
@@ -116,7 +117,7 @@
     }
     .PersonName{
         transform: rotate(0);
-        font-size: 7rem;
+        font-size: 5rem;
         line-height: 2rem;
         left: -10%;
     }
