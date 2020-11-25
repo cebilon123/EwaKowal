@@ -9,7 +9,7 @@ const Prices = (props) => {
             </header>
             <section className="AboutPricesContainer">
                 <p>
-                    Najczęściej wybierane zabiegi,
+                    Najczęściej wybierane,
                     ułożone kategoriami aby było ci łatwiej
                 </p>
             </section>

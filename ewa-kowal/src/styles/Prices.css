@@ -28,7 +28,7 @@ header p {
 .AboutPricesContainer p{
     font-size: 25px;
     font-weight: 100;
-    width: 60%;
+    width: 250px;
 
     position: absolute;
     top: 25%;
@@ -41,6 +41,10 @@ header p {
     header p {
         font-size: 4rem;
     }
+    .AboutPricesContainer p{
+        width: 400px;
+        font-size: 40px;
+    }
 }
 @media (min-width: 1024px) {
     .PricesContainer{
@@ -48,6 +52,16 @@ header p {
     }
     header p {
         font-size: 8rem;
+    }
+    .AboutPricesContainer{
+        min-height: 50vh;   
+    }
+    .AboutPricesContainer p{
+        width: 600px;
+        font-size: 50px;
+
+        top: 40%;
+        left: 25%;
     }
 }
 @media (min-width: 1440px) {
