@@ -1,95 +1,94 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Segoe UI;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
 }
 .home {
-    display: flex;
-    min-height: 100vh;
-    min-width: 100%;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100%;
 
-    flex-direction: column;
-    justify-content: space-around;
+  flex-direction: column;
+  justify-content: space-around;
 
-    padding: 5rem 3rem;
-
+  padding: 5rem 3rem;
 }
 .imagebox {
-    position: relative;
+  position: relative;
 
-    align-self: flex-end;
+  align-self: flex-end;
 
-    width: auto;
+  width: auto;
 }
 img {
-    width: 300px;
-    z-index: 2;
-    height: auto;
+  width: 300px;
+  z-index: 2;
+  height: auto;
 
-    position: relative;
+  position: relative;
 }
 .imagebox .square {
-    position: absolute;
+  position: absolute;
 
-    width: 250px;
-    height: 300px;
+  width: 250px;
+  height: 300px;
 
-    background: #A1785D;
+  background: salmon;
 
-    z-index: 1;
-    top: -40px;
-    right: -20px;
+  z-index: 1;
+  top: -40px;
+  right: -20px;
 }
 .Home_p {
-    width: 50%;
-    font-size: 8vw;
-    font-weight: 100;
+  width: 50%;
+  font-size: 8vw;
+  font-weight: 100;
 }
 @media screen and (min-width: 768px) {
-    .home {
-        flex-direction: row;
-        align-items: center;
+  .home {
+    flex-direction: row;
+    align-items: center;
 
-        min-height: 90vh;
-    }
-    .imagebox {
-        align-self: center;
-    }
-    .Home_p{
-        width: 40%;
-        font-size: 6vw;        
-    }
-    .imagebox .square {
-        right: -14%;
-    }
+    min-height: 90vh;
+  }
+  .imagebox {
+    align-self: center;
+  }
+  .Home_p {
+    width: 40%;
+    font-size: 6vw;
+  }
+  .imagebox .square {
+    right: -14%;
+  }
 }
 @media screen and (min-width: 1024px) {
-    .Home_p{
-        width: 25%;
-        font-size: 4vw;
-    }
-    img {
-        width: 40vw;
-    }
-    .imagebox .square {
-        width: 300px;
-        height: 390px;
-    }
+  .Home_p {
+    width: 25%;
+    font-size: 4vw;
+  }
+  img {
+    width: 40vw;
+  }
+  .imagebox .square {
+    width: 300px;
+    height: 390px;
+  }
 }
 @media screen and (min-width: 1440px) {
-    .Home_p{
-        width: 28%;
-        font-size: 2.65vw;
-    }
-    .imagebox .square {
-        width: 420px;
-        height: 520px;
-    }
+  .Home_p {
+    width: 28%;
+    font-size: 2.65vw;
+  }
+  .imagebox .square {
+    width: 420px;
+    height: 520px;
+  }
 }
 @media screen and (min-width: 1600px) {
-    .imagebox .square {
-        width: 500px;
-        height: 640px;
-    }
+  .imagebox .square {
+    width: 500px;
+    height: 640px;
+  }
 }

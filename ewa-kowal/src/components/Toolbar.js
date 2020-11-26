@@ -4,19 +4,21 @@ import Button from './reusable/Button.jsx'
 
 const Toolbar = () => {
     return (
-      <div className="toolbar">
-        <div className="logo">EK</div>
-          <ul>
-            <li>
-              <a>O nas</a>
-            </li>
-            <li>
-              <a>Cennik</a>
-            </li>
-            <li>
-              <Button text={"Kontakt"}/>
-            </li>
-          </ul>
+      <div>
+        <div className="toolbar">
+          <h1 className="logo"><b>Ewa Kowal</b> Kosmetyka i Fryzjerstwo</h1>
+            <ul>
+              <li>
+                <a>O nas</a>
+              </li>
+              <li>
+                <a>Cennik</a>
+              </li>
+              <li>
+                <Button text={"Kontakt"}/>
+              </li>
+            </ul>
+        </div>
       </div>
     )
   }

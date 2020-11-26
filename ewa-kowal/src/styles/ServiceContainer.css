@@ -3,6 +3,7 @@
 }
 .ServiceContainer {
   width: 60vw;
+  min-width: 300px;
   max-width: 350px;
   position: relative;
   margin: 5%;
@@ -21,7 +22,7 @@
 }
 .ServiceContainer__body {
   min-height: 400px;
-  background: #e5e4e9;
+  background: white;
 }
 .ServiceContainer__body > table {
   width: 100%;

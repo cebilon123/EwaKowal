@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.ContactContainer {
+  background: #252420;
+  color: white;
+}
+.ContactContainer > .Title {
+  padding: 0 30px;
+  font-size: 70px;
+  text-align: end;
+}
+.ContactBox {
+  margin: 30px 30px 0 30px;
+  padding: 20px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
+  border-radius: 20px;
+  background: white;
+  color: black;
+}
+@media screen and (min-width: 750px) {
+  .ContactContainer > .Title {
+    font-size: 100px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .ContactContainer > .Title {
+    font-size: 150px;
+  }
+}
