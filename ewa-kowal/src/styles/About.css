@@ -1,124 +1,124 @@
 .About {
-    margin-top: 150px;
+  margin-top: 150px;
 
-    min-height: 150vh;
-    text-align: center;
-    position: relative;
+  min-height: 150vh;
+  text-align: center;
+  position: relative;
 }
 
 .Header {
-    margin: auto;
-    
-    display: flex;
-    flex-direction: column;
+  margin: auto;
 
-    align-items: center;
-    padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  padding: 0 2rem;
 }
 .Title {
-    font-weight: 400;
-    font-size: 6vw;
+  font-weight: 400;
+  font-size: 6vw;
 }
 .Text {
-    width: 100%;
-    font-size: 4vw;
-    font-weight: 100;
+  width: 100%;
+  font-size: 4vw;
+  font-weight: 100;
 }
 
 .PersonInformation {
-    position: relative;
+  position: relative;
 
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-    align-items: center;
+  align-items: center;
 }
 .Background {
-    position: absolute;
+  position: absolute;
 
-    top: 14%;
+  top: 14%;
 
-    height: 80%;
-    width: 100%;
+  height: 80%;
+  width: 100%;
 
-    z-index: 0;
-    background: #252420;
+  z-index: 0;
+  background: #252420;
 }
-.PersonInformation>div{
-    z-index: 4;
-    position: relative;
+.PersonInformation > div {
+  z-index: 4;
+  position: relative;
 
-    display:flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 .PersonName {
-    color: white;
-    mix-blend-mode: difference;
-    z-index: 1;
-    transform: rotate(90deg);
-    width: 1rem;
-    white-space: nowrap;
+  color: white;
+  mix-blend-mode: difference;
+  z-index: 1;
+  transform: rotate(90deg);
+  width: 1rem;
+  white-space: nowrap;
 
-    position: absolute;
+  position: absolute;
 
-    left: 2.5%;
-    top: 40%;
+  left: 2.5%;
+  top: 40%;
 
-    font-size: 1.5rem;
-    font-weight: 100;
+  font-size: 1.5rem;
+  font-weight: 100;
 }
-@media (min-width: 687px) {    
-    .PersonInformation div:nth-child(n){
-        align-self: flex-start;       
-    }
-    .PersonInformation div:nth-child(2n+0){
-        align-self: flex-end;       
-    }
-    .PersonName {
-        transform: rotate(45deg);
-        left: 20%
-    }
-}
-@media (min-width: 1024px) {
-    .Header {
-        width: 80%;
-    }
-    .Text {
-        font-size: 3vw;
-    }
-    .PersonName{
-        transform: rotate(0);
-        font-size: 3.5rem;
-
-        left: -10%;
-    }
+@media (min-width: 687px) {
+  .PersonInformation div:nth-child(n) {
+    align-self: flex-start;
+  }
+  .PersonInformation div:nth-child(2n + 0) {
+    align-self: flex-end;
+  }
+  .PersonName {
+    transform: rotate(45deg);
+    left: 20%;
+  }
 }
 @media (min-width: 1024px) {
-    .Header {
-        width: 60%;
-    }
-    .Text {
-        font-size: 2vw;
-    }
-    .Title{
-        font-size: 4vw;
-    }
-    .PersonInformation{
-        padding: 10%;
-    }
-    .Background{
-        height: 68%;
-    }
+  .Header {
+    width: 80%;
+  }
+  .Text {
+    font-size: 3vw;
+  }
+  .PersonName {
+    transform: rotate(0);
+    font-size: 3.5rem;
+
+    left: -10%;
+  }
+}
+@media (min-width: 1024px) {
+  .Header {
+    width: 60%;
+  }
+  .Text {
+    font-size: 2vw;
+  }
+  .Title {
+    font-size: 4vw;
+  }
+  .PersonInformation {
+    padding: 10%;
+  }
+  .Background {
+    height: 68%;
+  }
 }
 @media (min-width: 1300px) {
-    .Background{
-        top: 26%;
-        height: 58%;
-    }
-    .PersonName{
-        transform: rotate(0);
-        font-size: 5rem;
-        line-height: 2rem;
-        left: -10%;
-    }
+  .Background {
+    top: 26%;
+    height: 58%;
+  }
+  .PersonName {
+    transform: rotate(0);
+    font-size: 5rem;
+    line-height: 2rem;
+    left: -10%;
+  }
 }

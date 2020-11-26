@@ -1,24 +1,19 @@
-import React from 'react'
-import '../styles/Prices.css'
+import React from "react";
+import "../styles/Prices.css";
+import ServiceContainer from "./reusable/ServiceContainer";
+import services from "../assets/services.json";
+
+const servicesContainers = services.map((service) => {
+  return <ServiceContainer title={service.title} services={service.services} />;
+});
 
 const Prices = (props) => {
-    return (
-        <div className="PricesContainer">
-            <header>
-                <p>Zabiegi</p>
-            </header>
-            <section className="AboutPricesContainer">
-                <p>
-                    Najczęściej wybierane,
-                    ułożone kategoriami aby było ci łatwiej
-                </p>
-            </section>
-            <div className="PricesListBox">
+  return (
+    <div className="PricesContainer">
+      <p className="Title">Zabiegi</p>
+      <div className="PricesBox">{servicesContainers}</div>
+    </div>
+  );
+};
 
-            </div>
-
-        </div>
-    )
-}
-
-export default Prices
+export default Prices;

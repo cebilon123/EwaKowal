@@ -1,0 +1,37 @@
+[
+    {
+        "title":"Fryzjerstwo",
+        "services": [
+            {
+                "id":1,
+                "name":"Strzyżenie",
+                "cost":"100-200zł"
+            },
+            {
+                "id":1,
+                "name":"Strzyżenie 2",
+                "cost":"100-200zł"
+            }
+        ]
+    },
+    {
+        "title":"Kosmetyka",
+        "services": [
+            {
+                "id":1,
+                "name":"Jakiś tam depilejszyn",
+                "cost":"100-200zł"
+            }
+        ]
+    },
+    {
+        "title":"Paznokcie",
+        "services": [
+            {
+                "id":1,
+                "name":"Coś tam malu malu",
+                "cost":"100-200zł"
+            }
+        ]
+    }
+]

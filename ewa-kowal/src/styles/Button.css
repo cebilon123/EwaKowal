@@ -1,23 +1,24 @@
 .Button {
-    padding: 0.1rem 0.8rem;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0.1rem 0.8rem;
+  margin: 0;
+  box-sizing: border-box;
 
-    background: #F4C2CB;   
-    border-radius: 25px;
+  background: #f4c2cb;
+  border-radius: 25px;
 
-    cursor: pointer;
+  cursor: pointer;
 
-    box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 8px rgb(0, 0, 0, 0.4);
 }
 
 .Button p {
-    color: #7E313F;
-    font-size: 1.1rem;
+  color: #7e313f;
+  font-size: 1.1rem;
+  text-align: center;
 }
 
 @media (min-width: 426px) {
-    .Button{
-        padding: 0.2rem 1.5rem;
-    }
+  .Button {
+    padding: 0.5rem 2rem;
   }
+}

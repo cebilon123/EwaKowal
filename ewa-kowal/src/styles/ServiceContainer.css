@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+.ServiceContainer {
+  width: 60vw;
+  max-width: 350px;
+  position: relative;
+  margin: 5%;
+
+  box-shadow: 15px 15px 10px rgb(0, 0, 0, 0.4);
+}
+.SectionHeader {
+  background: #252420;
+}
+.SectionHeader > p {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 100;
+  padding: 5px;
+}
+.ServiceContainer__body {
+  min-height: 400px;
+  background: #e5e4e9;
+}
+.ServiceContainer__body > table {
+  width: 100%;
+  padding: 20px 15px;
+}
+.ServiceContainer__body > table thead,
+tr {
+  display: flex;
+  width: 100%;
+
+  justify-content: space-between;
+}
+.Font--Thin {
+  font-weight: 100;
+  font-size: 14px;
+}
+.Text--Start {
+  text-align: start;
+}
+.th__name {
+  max-width: 50%;
+}
+.flex--baseline {
+  display: flex;
+  align-items: flex-end;
+}
+.Line {
+  border: 1px solid black;
+}
+.Row__Wrapper {
+  padding: 5px;
+}

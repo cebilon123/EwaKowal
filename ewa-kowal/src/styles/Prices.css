@@ -1,71 +1,15 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
-.PricesContainer{
-    padding: 20% 0 0 0;
-    display: flex;
-    flex-direction: column;
+.PricesContainer {
+  padding: 20px;
 }
-header {
-    align-self: flex-end;
-    background: #A1785D;
-    width: 80%;
-    height: 100%;
+.PricesContainer > .Title {
+  font-size: 70px;
+}
+.PricesBox {
+  display: flex;
+  flex-direction: column;
 
-    display: flex;
-
-    padding: 4%;
-}
-header p {
-    color: white;
-    font-size: 3rem;
-}
-.AboutPricesContainer{
-    min-height: 30vh;   
-
-    position: relative;
-}
-.AboutPricesContainer p{
-    font-size: 25px;
-    font-weight: 100;
-    width: 250px;
-
-    position: absolute;
-    top: 25%;
-    left: 10%;
-}
-@media (min-width: 768px) {
-    .PricesContainer{
-        padding: 10% 0 0 0;
-    }
-    header p {
-        font-size: 4rem;
-    }
-    .AboutPricesContainer p{
-        width: 400px;
-        font-size: 40px;
-    }
-}
-@media (min-width: 1024px) {
-    .PricesContainer{
-        padding: 5% 0 0 0;
-    }
-    header p {
-        font-size: 8rem;
-    }
-    .AboutPricesContainer{
-        min-height: 50vh;   
-    }
-    .AboutPricesContainer p{
-        width: 600px;
-        font-size: 50px;
-
-        top: 40%;
-        left: 25%;
-    }
-}
-@media (min-width: 1440px) {
-    .PricesContainer{
-        padding: 5% 0 0 0;
-    }
+  align-items: center;
 }
