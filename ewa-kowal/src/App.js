@@ -6,21 +6,49 @@ import About from './components/About'
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Prices from './components/Prices';
 import Contact from './components/Contact'
+import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
-function App() {
-  return (
+class App extends React.Component {
+  
+  componentDidMount() {
+    Events.scrollEvent.register('begin', function(to, element) {
+      console.log('begin', arguments);
+    });
+ 
+    Events.scrollEvent.register('end', function(to, element) {
+      console.log('end', arguments);
+    });
+ 
+    scrollSpy.update();
+  }
+
+  componentWillUnmount() {
+    Events.scrollEvent.remove('begin');
+    Events.scrollEvent.remove('end');
+  }
+
+  render() {
+    return (
       <div className="App">
         <Toolbar/>
         <Home/>
-        <About/>
-        <Prices/>
-        <Contact/>
+        <Element name="About">
+          <About/>
+        </Element>       
+        <Element name="Prices">
+          <Prices/>
+        </Element>
+        <Element name="Contact">
+          <Contact/>
+        </Element>
+        
         <MessengerCustomerChat
           pageId="494197140644733"
           appId="1310007462670322"
         />
       </div>
-  );
+  )
+  }
 }
 
 export default App;
