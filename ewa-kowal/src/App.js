@@ -45,6 +45,8 @@ class App extends React.Component {
         <MessengerCustomerChat
           pageId="494197140644733"
           appId="1310007462670322"
+          language="pl_PL"
+          loggedInGreeting="Cześć! W czym możemy ci pomóc? :)"
         />
       </div>
   )
