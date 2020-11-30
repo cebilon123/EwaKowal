@@ -4,7 +4,13 @@ import ServiceContainer from "./reusable/ServiceContainer";
 import services from "../assets/services.json";
 
 const servicesContainers = services.map((service) => {
-  return <ServiceContainer title={service.title} services={service.services} />;
+  return (
+    <ServiceContainer
+      title={service.title}
+      services={service.services}
+      subtitle={service.subtitle ? service.subtitle : null}
+    />
+  );
 });
 
 const Prices = (props) => {

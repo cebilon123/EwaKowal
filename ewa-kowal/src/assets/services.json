@@ -1,16 +1,82 @@
 [
     {
         "title":"Fryzjerstwo",
+        "subtitle":"Cena zależy od długości włosów",
         "services": [
             {
                 "id":1,
-                "name":"Strzyżenie",
-                "cost":"100-200zł"
+                "name":"Keratynowe prostowanie włosów",
+                "cost":"220 | 340 | 440 zł"
             },
             {
-                "id":1,
-                "name":"Strzyżenie 2",
-                "cost":"100-200zł"
+                "id":2,
+                "name":"Strzyżenie damskie",
+                "cost":"28 | 35 | 44 zł"
+            },
+            {
+                "id":3,
+                "name":"Koloryzacja damska (+ podcinanie końcówek)",
+                "cost":"75 | 85 | 110 zł"
+            },
+            {
+                "id":3,
+                "name":"Koloryzacja damska EXTRA (+ kompleksowe strzyżenie)",
+                "cost":"80 | 90 | 115 zł"
+            },
+            {
+                "id":4,
+                "name":"Modelowanie włosów",
+                "cost":"35 | 40 | 50 zł"
+            },
+            {
+                "id":5,
+                "name":"Sombre, Ombre, Flambaleyage",
+                "cost":"75 | 95 | 130 zł"
+            },
+            {
+                "id":6,
+                "name":"Fryzury okolicznościowe",
+                "cost":"50 | 55 | 65 zł"
+            },
+            {
+                "id":7,
+                "name":"Trwała ondulacja",
+                "cost":"60 | 65 | 70 zł"
+            },
+            {
+                "id":8,
+                "name":"Polerowanie włosów",
+                "cost":"35 | 45 | 55 zł"
+            },
+            {
+                "id":9,
+                "name":"Zabieg regeneracyjny",
+                "cost":"35 | 40 | 45 zł"
+            },
+            {
+                "id":10,
+                "name":"Mycie włosów",
+                "cost":"+7 zł"
+            },
+            {
+                "id":11,
+                "name":"Strzyżenie maszynką - męskie",
+                "cost":"17 zł"
+            },
+            {
+                "id":12,
+                "name":"Strzyżenie maszynką, nożyczkami - męskie",
+                "cost":"20 zł"
+            },
+            {
+                "id":13,
+                "name":"Strzyżenie dziecięce",
+                "cost":"18 zł"
+            },
+            {
+                "id":14,
+                "name":"Podcięcie grzywki",
+                "cost":"8 zł"
             }
         ]
     },
@@ -19,8 +85,133 @@
         "services": [
             {
                 "id":1,
-                "name":"Jakiś tam depilejszyn",
-                "cost":"100-200zł"
+                "name":"Regulacja brwi",
+                "cost":"10 zł"
+            },
+            {
+                "id":2,
+                "name":"Henna brwi",
+                "cost":"15 zł"
+            },
+            {
+                "id":3,
+                "name":"Henna brwi + regulacja",
+                "cost":"15 zł"
+            },
+            {
+                "id":4,
+                "name":"Henna extra (rzęsy + brwi)",
+                "cost":"20 zł"
+            },
+            {
+                "id":5,
+                "name":"Peeling + masaż twarzy + maska",
+                "cost":"69 zł"
+            },
+            {
+                "id":6,
+                "name":"Zabieg z witaminą C",
+                "cost":"80 zł"
+            },
+            {
+                "id":7,
+                "name":"Zabieg kwasami owocowymi",
+                "cost":"80 zł"
+            },
+            {
+                "id":8,
+                "name":"Zabieg i peeling dodatkowo masaż oraz algi",
+                "cost":"89 zł"
+            },
+            {
+                "id":9,
+                "name":"Peeling kawitacyjny",
+                "cost":"45 zł"
+            },
+            {
+                "id":10,
+                "name":"Peeling kawitacyjny i masaż ręczny",
+                "cost":"98 zł"
+            },
+            {
+                "id":11,
+                "name":"Peeling kawitacyjny oraz sonoforeza",
+                "cost":"10 zł"
+            },
+            {
+                "id":12,
+                "name":"Mikrodermabrazja",
+                "cost":"118 zł"
+            },
+            {
+                "id":13,
+                "name":"Zabieg roślinny \"Lift\"",
+                "cost":"118 zł"
+            },
+            {
+                "id":14,
+                "name":"Zabieg z aktywnym tlenem",
+                "cost":"118 zł"
+            },
+            {
+                "id":15,
+                "name":"Makijaż okazjonalny",
+                "cost":"85 zł"
+            },
+            {
+                "id":16,
+                "name":"Makijaż wieczorowy",
+                "cost":"85 zł"
+            },
+            {
+                "id":17,
+                "name":"Catioclean (Oczyszczanie twarzy)",
+                "cost":"138 zł"
+            },
+            {
+                "id":18,
+                "name":"Catiovital (Oczyszczanie twarzy)",
+                "cost":"158 zł"
+            },
+            {
+                "id":19,
+                "name":"Oczyszczanie twarzy z Vapozonem",
+                "cost":"99 zł"
+            },
+            {
+                "id":20,
+                "name":"Radiofrekwencja mikroigłowa oraz ciepłe algi",
+                "cost":"259 zł"
+            },
+            {
+                "id":21,
+                "name":"Radiofrekwencja mikroigłowa, ciepłe algi oraz ampułka",
+                "cost":"279 zł"
+            },
+            {
+                "id":22,
+                "name":"Mesopen oraz \"Peptide Hybrid Cocktail\"",
+                "cost":"259 zł"
+            },
+            {
+                "id":23,
+                "name":"Mezoterapia bezigłowa",
+                "cost":"140 zł"
+            },
+            {
+                "id":24,
+                "name":"Plasma PIX (likwidacja zmarszczek)",
+                "cost":"140 - 340 zł"
+            },
+            {
+                "id":25,
+                "name":"Plasma PIX (likwidacja włókniaków)",
+                "cost":"10 zł"
+            },
+            {
+                "id":26,
+                "name":"Zamykanie naczyniek",
+                "cost":"80 - 180 zł"
             }
         ]
     },
@@ -29,8 +220,98 @@
         "services": [
             {
                 "id":1,
-                "name":"Coś tam malu malu",
-                "cost":"100-200zł"
+                "name":"Manicure",
+                "cost":"29 zł"
+            },
+            {
+                "id":2,
+                "name":"Manicure (bez malowania paznokci)",
+                "cost":"26 zł"
+            },
+            {
+                "id":3,
+                "name":"Manicure Francuski",
+                "cost":"35 zł"
+            },
+            {
+                "id":4,
+                "name":"Manicure Japoński",
+                "cost":"45 zł"
+            },
+            {
+                "id":5,
+                "name":"Malowanie paznokci",
+                "cost":"15 zł"
+            },
+            {
+                "id":6,
+                "name":"Manicure French hybryda",
+                "cost":"49 zł"
+            },
+            {
+                "id":7,
+                "name":"Manicure hybrydowy",
+                "cost":"49 zł"
+            },
+            {
+                "id":8,
+                "name":"Manicure żelowy",
+                "cost":"80 zł"
+            },
+            {
+                "id":9,
+                "name":"Ściąganie żelu",
+                "cost":"39 zł"
+            },
+            {
+                "id":10,
+                "name":"Uzupęłnianie żelowych paznokci",
+                "cost":"59 zł"
+            },
+            {
+                "id":11,
+                "name":"Pedicure (bez malowania)",
+                "cost":"55 zł"
+            },
+            {
+                "id":12,
+                "name":"Pedicure",
+                "cost":"60 zł"
+            },
+            {
+                "id":13,
+                "name":"Pedicure hybrydowy",
+                "cost":"85 zł"
+            },
+            {
+                "id":14,
+                "name":"Paznokcie hybrydowe u stóp",
+                "cost":"50 zł"
+            },
+            {
+                "id":15,
+                "name":"French pedicure",
+                "cost":"90 zł"
+            },
+            {
+                "id":16,
+                "name":"Ściąganie hybryd",
+                "cost":"20 zł"
+            },
+            {
+                "id":17,
+                "name":"Ściąganie hybryd + manicure",
+                "cost":"39 zł"
+            },
+            {
+                "id":18,
+                "name":"Okład parafinowy na dłonie",
+                "cost":"34 zł"
+            },
+            {
+                "id":19,
+                "name":"Okład parafinowy na dłonie + manicure",
+                "cost":"34 zł"
             }
         ]
     }

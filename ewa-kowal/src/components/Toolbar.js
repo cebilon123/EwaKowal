@@ -6,7 +6,7 @@ const Toolbar = () => {
     return (
       <div>
         <div className="toolbar">
-          <h1 className="logo"><b>Ewa Kowal</b> Kosmetyka i Fryzjerstwo</h1>
+          <h1 className="logo"><b>Ewa Kowal</b></h1>
             <ul>
               <li>
                 <a>O nas</a>

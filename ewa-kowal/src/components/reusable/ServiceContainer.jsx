@@ -6,6 +6,7 @@ const ServiceContainer = (props) => {
     <div className="ServiceContainer">
       <header className="SectionHeader">
         <p>{props.title}</p>
+        <p>{props.subtitle ? props.subtitle : null}</p>
       </header>
       <section className="ServiceContainer__body">
         <table>
