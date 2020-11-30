@@ -6,15 +6,15 @@ const Toolbar = () => {
     return (
       <div>
         <div className="toolbar">
-          <h1 className="logo"><b>Ewa Kowal</b></h1>
+          <h1 className="logo"><b>EK</b></h1>
             <ul>
               <li>
-                <a>O nas</a>
+                <a className="no_highlights">O nas</a>
               </li>
               <li>
-                <a>Cennik</a>
+                <a className="no_highlights">Cennik</a>
               </li>
-              <li>
+              <li className="no_highlights">
                 <Button text={"Kontakt"}/>
               </li>
             </ul>

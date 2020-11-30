@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className="home">
             <p className="Home_p">
-                Stworzymy idealną fryzurę i zajmiemy się twoją cerą
+                Ewa Kowal - Fryzjerstwo i kosmetyka w Rzeszowie
             </p>
             <div className="imagebox">
                 <div className="imageContainer">
