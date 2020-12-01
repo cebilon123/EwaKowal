@@ -1,18 +1,21 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
 .App {
   position: relative;
   overflow: scroll;
   overflow-x: hidden;
 }
-.MessageContainer{
+.MessageContainer {
   position: sticky;
 }
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /* Optional: show position indicator in red */
 ::-webkit-scrollbar-thumb {
-  background: #FF0000;
+  background: #ff0000;
 }
 
 @media (min-width: 480px) {
@@ -20,3 +23,6 @@
     font-size: 16px;
   }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");

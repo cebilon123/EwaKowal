@@ -1,0 +1,13 @@
+.Footer {
+  background: #252420;
+  padding: 10px 5px;
+}
+.Footer__Text {
+  color: white;
+}
+@media (min-width: 700px) {
+  .Footer {
+    display: flex;
+    justify-content: space-between;
+  }
+}

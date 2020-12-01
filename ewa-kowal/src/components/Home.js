@@ -5,9 +5,9 @@ import '../styles/Home.css'
 const Home = () => {
     return (
         <div className="home">
-            <p className="Home_p">
+            <h1 className="Home_p">
                 Ewa Kowal - Fryzjerstwo i kosmetyka w Rzeszowie
-            </p>
+            </h1>
             <div className="imagebox">
                 <div className="imageContainer">
                     <img src={girl}/>

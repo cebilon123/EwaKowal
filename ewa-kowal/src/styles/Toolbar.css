@@ -31,6 +31,7 @@ ul {
 
 ul li > a {
   -webkit-tap-highlight-color: transparent;
+  color: rgb(126, 126, 126);
 }
 ul li:hover {
   cursor: pointer;

@@ -6,6 +6,7 @@ import About from './components/About'
 import MessengerCustomerChat from 'react-messenger-customer-chat';
 import Prices from './components/Prices';
 import Contact from './components/Contact'
+import Footer from './components/Footer'
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 
 class App extends React.Component {
@@ -41,7 +42,7 @@ class App extends React.Component {
         <Element name="Contact">
           <Contact/>
         </Element>
-        
+        <Footer/>
         <MessengerCustomerChat
           pageId="494197140644733"
           appId="1310007462670322"

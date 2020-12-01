@@ -13,7 +13,7 @@ class About extends React.Component{
                 <section className="Header">
                     <p className="Title">O nas</p>
                     <p className="Text">
-                        Nasz salon powstał ponad 20 lat temu i od tamtego czasu 
+                        Gabinet kosmetyczno-fryzjerski Kowal Ewa powstał ponad 20 lat temu i od tamtego czasu 
                         zaufało nam setki klientów!
                     </p>              
                 </section>
