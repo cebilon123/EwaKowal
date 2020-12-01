@@ -1,30 +1,50 @@
-* {
-  box-sizing: border-box;
+.Contact {
+  min-height: 60vh;
+  padding: 30px;
 }
-.ContactContainer {
-  background: #252420;
-  color: white;
+
+.Contact__Container {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 80vh;
+
+  justify-content: space-around;
 }
-.ContactContainer > .Title {
-  padding: 0 30px;
-  font-size: 70px;
-  text-align: end;
+.Contact__Container__MapContainer {
+  display: flex;
+  flex-direction: column;
 }
-.ContactBox {
-  margin: 30px 30px 0 30px;
-  padding: 20px;
-  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.4);
-  border-radius: 20px;
-  background: white;
-  color: black;
+.Contact__Container__MapContainer__Map {
+  height: 300px;
 }
-@media screen and (min-width: 750px) {
-  .ContactContainer > .Title {
-    font-size: 100px;
+.Contact__NormalText {
+  font-size: 25px;
+  font-weight: 100;
+}
+.Contact__Container_MiddleText {
+  align-self: center;
+}
+.Contact__Container__CallMeContainer__Number {
+  color: #7e313f;
+}
+.Contact__Container__CallMeContainer__BottomText {
+  margin: 20px 0 20px 0;
+}
+
+@media (min-width: 1000px) {
+  .Contact__Container {
+    flex-direction: row;
+    align-items: center;
+
+    min-height: 50vh;
   }
-}
-@media screen and (min-width: 1024px) {
-  .ContactContainer > .Title {
-    font-size: 150px;
+  .Contact__Container__MapContainer__Map {
+    height: 400px;
+    width: 400px;
+  }
+  .Contact__Container__CallMeContainer {
+    width: 40%;
+    align-self: flex-end;
   }
 }
