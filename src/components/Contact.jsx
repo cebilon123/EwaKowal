@@ -24,9 +24,6 @@ const Contact = () => {
           </p>
           {Map()}
         </div>
-        <p className="Contact__Container_MiddleText Contact__NormalText">
-          Albo
-        </p>
         <div className="Contact__Container__CallMeContainer">
           <p className="Contact__Container__CallMeContainer__Text Contact__NormalText">
             Zadzwoń do nas

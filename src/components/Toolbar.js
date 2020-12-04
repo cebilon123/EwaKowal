@@ -10,7 +10,7 @@ class Toolbar extends React.Component {
     return (
       <div>
         <div className="toolbar">
-          <h1 className="logo"><b>EK</b></h1>
+          <h1 className="logo"><b>Twoja kosmetyczka i fryzjerka</b></h1>
             <ul>
               <li>
                 <Link to="About" smooth={true}>
